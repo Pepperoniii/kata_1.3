@@ -1,0 +1,136 @@
+@media screen and (min-width: 768px) {
+
+    .header__logo::after{
+        display: none;
+    }
+    .header__logo::before{
+        margin-right: 16px;
+        margin-left: 16px; 
+        content: "";
+        width: 2px;
+        height: 32px;
+        background-color: #EAEAEA;
+    }
+
+    .header__repair{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .header__repair::before{
+        margin-right: 16px;
+        margin-left: 16px; 
+        content: "";
+        width: 2px;
+        height: 32px;
+        background-color: #EAEAEA;
+    }
+
+    /* HEADER ICON */
+    .header__icon-phone{
+        display: block;
+    }
+    .header__icon-chat{
+        display: block;
+    }
+    .header__icon-user{
+        display: block;
+    }
+
+    /* PAGE */
+    .nav__item{
+        margin-right: 24px;
+    }
+    .page__wrapper{
+        padding: 0 24px;
+    }
+    .page__title::before{
+        margin-right: 20px;
+    }
+
+    .page__article{
+        display: flex;
+    }
+    .article__wrapper{
+        padding: 0;
+        padding-left: 24px;
+    }
+    .article__description{
+        max-height: 160px;
+        max-width: 312px;
+    }
+    .article__image{
+        margin-right: 25px;
+        margin-left: auto;
+    }
+    .article__image img{
+        min-width: 360px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 1120px) {
+    /* .content{
+        max-width: 1120px;
+        margin: 0 auto;
+    } */
+    /* .header__logo-nav{
+        display: none;
+    }
+    header{
+        justify-content: end;
+    }
+    .header__icons{
+        white-space: nowrap;
+    }
+    .header__icons a:empty{
+        display: none;
+    }
+    .header__repair::before{
+        display: none;
+    }
+    .header__icon-repair::before{
+        content: "Оставить заявку";
+        font-size: 16px;
+    }
+    .header__icon-search::before{
+        content: "Статус ремонта";
+        font-size: 16px;
+    } */
+    header{
+        display: none;
+    }
+    .nav__item{
+        margin-right: 18px;
+        margin-top: 0;
+    }
+    .page__wrapper{
+        padding: 0 34px;
+    }
+    .page__title{
+        margin-bottom: 8px;
+    }
+    .page__title::before {
+        margin-right: 30px;
+      }
+    .page__nav{
+        flex-wrap: wrap;
+    }
+    .page__nav li{
+        margin-bottom: 0;
+    }
+    .page__nav li:last-child{
+        margin: 0;
+        margin-bottom: 16px;
+    }
+    .article__wrapper{
+        padding-left: 34px;
+    }
+    .article__description{
+        min-height: 160px;
+        min-width: 490px;;
+    }
+    .article__image img{
+        min-width: 531px;
+        margin-left: 28px;
+    }
+}

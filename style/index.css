@@ -1,0 +1,186 @@
+@import url(fonts.css);
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "TTLakes Regular";
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 16px;
+    border-bottom: 1px solid #D9FFF5;
+}
+.header__icon{
+    background-color: #FF3E79;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+}
+.header__nav{
+    order: -1;
+}
+
+/* header icon */
+.header__icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+.header__icons a{
+    text-decoration: none;
+    color: #1B1C21;
+}
+.header__icon{
+    margin: 0 8px;
+}
+.header__icon-nav{
+    background-image: url(../image/header/icon_menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header__icon-repair{
+    background-image: url(../image/header/icon_repair.svg);
+    background-repeat: no-repeat;
+    background-position: center
+}
+.header__icon-search{
+    background-image: url(../image/header/icon_search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header__icon-phone{
+    background-image: url(../image/header/icon_phone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+}
+.header__icon-chat{
+    background-image: url(../image/header/icon_chat.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+}
+.header__icon-user{
+    background-image: url(../image/header/icon_user.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+}
+
+/* MENU AND LOGO HEADER */
+.header__logo{
+    position: relative;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.header__logo::after{
+    margin-left: 16px;
+    margin-right: -16px; /*Делают ли так */
+    content: "";
+    width: 2px;
+    height: 32px;
+    background-color: #EAEAEA;
+}
+.header__logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* PAGE */
+.page{
+    background-color: #F8F8F8;
+}
+.page__wrapper{
+    padding: 0 16px;
+}
+.page__title{
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+    margin-bottom: 16px;
+    font-family: "TTLakes Bold";
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+.page__title::before{
+    content: " ";
+    justify-self: start;
+    height: 1em; 
+    display: inline-block;
+    background-color: #41F6D7;
+    border-top-right-radius:100px ;
+    border-bottom-right-radius:100px; /* Как тут правильно сделать */
+    width: 4px;
+    margin-right: 12px;
+}
+
+.page__nav{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: nowrap;
+
+    color: #7E7E82;
+    font-size: 16px;
+    overflow: hidden;
+}
+.nav__item{
+    padding: 8px 9px 8px 16px;
+    max-height: 24px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    white-space: nowrap;
+}
+.nav__item-active{
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+}
+.article__description{
+    white-space: pre-wrap;
+    margin: 0;
+
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+
+    max-height: 80px;
+    overflow: hidden;
+}
+.article__image img{
+    min-width: 320px;
+    height: auto;
+}
+.read__link{
+    margin-bottom: 16px;
+}
+.read__link a{
+    color: #1B1C21;
+    text-decoration: none;
+    position: relative;
+    font-family: "TTLakes Medium";
+    font-size: 16px;
+}
+.read__link a::before{
+    content: " ";
+    display: inline-block;  
+    width: 8px;
+    height: 11px;
+    background-image: url(../image/page/icon__read.svg);
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    vertical-align: middle;
+}
+
+.article__wrapper{
+    padding: 0 16px;
+}
