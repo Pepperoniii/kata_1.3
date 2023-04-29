@@ -56,7 +56,7 @@
         padding-left: 24px;
     }
     .article__description{
-        max-height: 160px;
+        max-height: 155px;
         max-width: 312px;
     }
     .article__image{
@@ -105,6 +105,9 @@
     }
     .page__wrapper{
         padding: 0 34px;
+    }
+    .page-header__links{
+        display: flex;
     }
     .page__title{
         margin-bottom: 8px;
