@@ -132,7 +132,7 @@ header{
 
     color: #7E7E82;
     font-size: 16px;
-    overflow: hidden;
+    overflow: scroll;
 }
 .nav__item{
     padding: 8px 9px 8px 16px;
@@ -157,7 +157,7 @@ header{
     overflow: hidden;
 }
 .article__image img{
-    min-width: 320px;
+    min-width: 100%;
     height: auto;
 }
 .read__link{

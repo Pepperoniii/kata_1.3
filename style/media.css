@@ -114,6 +114,7 @@
       }
     .page__nav{
         flex-wrap: wrap;
+        overflow: unset;
     }
     .page__nav li{
         margin-bottom: 0;
